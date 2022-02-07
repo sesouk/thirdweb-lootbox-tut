@@ -7,39 +7,41 @@ export type Question = {
 
 const quizQuestions: Question[] = [
   {
-    questionText: "What do the initials DB in Aston Martin DB11 stand for?",
+    questionText: "What kind of sushi is pressed and shaped in squares?",
     image:
-      "https://images.unsplash.com/photo-1642201855395-1c8b44e6e42b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "https://heyexplorer.com/wp-content/uploads/2021/08/Oshizushi.jpeg",
     answers: [
-      "Trick question: nothing!",
-      "David Brown",
-      "Drive Better",
-      "Diane Blue",
+      "Nigirizushi",
+      "Oshizushi",
+      "Makizushi",
+      "Inarizushi",
     ],
     correctAnswerIndex: 1,
   },
   {
-    questionText: "Which car brand is this logo for?",
-    image: "https://www.carlogos.org/logo/Lexus-symbol-640x480.jpg",
-    answers: ["Lamborghini", "Lada", "Lotus", "Lexus"],
+    questionText: "How many years does it take to become a sushi chef?",
+    image: "https://heyexplorer.com/wp-content/uploads/2021/08/sushi-chef.jpeg",
+    answers: ["3", "15", "6", "10"],
     correctAnswerIndex: 3,
   },
   {
-    questionText: "Where in the UK is the MINI plant?",
+    questionText: "Which US City first popularized nigiri in 1966?",
     image:
-      "https://images.unsplash.com/photo-1591439346018-9d5df732ab7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-    answers: ["Oxford", "Cambridge", "London", "Edinburgh"],
+      "https://heyexplorer.com/wp-content/uploads/2021/08/sushi-variety.jpeg",
+    answers: ["Los Angeles", "New York City", "San Franscisco", "Denver"],
     correctAnswerIndex: 0,
   },
   {
     questionText:
-      "Which was the first James Bond film to include an Aston Martin?",
-    answers: ["Dr No", "From Russia with Love", "Goldfinger", "Thunderball"],
+      "When is International Sushi Day?",
+    image: "https://heyexplorer.com/wp-content/uploads/2021/08/sushi-platter-1.jpeg",
+    answers: ["February 5th", "April 23rd", "June 18th", "August 28th"],
     correctAnswerIndex: 2,
   },
   {
-    questionText: "What color were all Ferraris originally?",
-    answers: ["Yellow", "White", "Blue", "Red"],
+    questionText: "What is the most expensive cut of maguro (tuna) sushi?",
+    image: "https://s3-media4.ak.yelpcdn.com/bphoto/F4bm9H7g-KKv7MG798EB-w/l.jpg",
+    answers: ["Akami", "Chutoro", "Otoro", "Fin"],
     correctAnswerIndex: 3,
   },
 ];
